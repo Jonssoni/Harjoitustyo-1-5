@@ -1,0 +1,17 @@
+.col {
+  border: 2px solid black;
+  height: 600px;
+  width: 400px;
+  font-size: 1.4em;
+  
+}
+
+#text {
+  margin-top: 10px;
+}
+
+#textarea {
+  margin-top: 60px;
+ 
+}
+
