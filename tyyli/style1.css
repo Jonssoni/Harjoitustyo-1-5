@@ -4,6 +4,7 @@
   width: 400px;
   font-size: 1.4em;
   
+  
 }
 
 #text {
@@ -14,4 +15,36 @@
   margin-top: 60px;
  
 }
+
+#name {
+  margin-top: 5px;
+  padding: 0;
+}
+
+#name1 {
+  margin-top: 10px;
+}
+
+#viesti {
+  margin-top: 10px;
+}
+
+#note1 {
+  margin-top: 10px;
+}
+
+#important {
+  margin-top: 15px;
+}
+
+#btn {
+  margin-top: 20px;
+}
+
+#pp {
+  color: red;
+}
+
+
+
 

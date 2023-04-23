@@ -22,9 +22,5 @@ function addNote() {
     }
 
     //kaikki elementit bodyn sisälle
-    body.append(h3,p,document.createElement("message"));
+    body.append(h3,p,document.createElement("p"));
 }
-
-let nimi = document.getElementById("username").value;
-
-document.getElementById("body").innerHTML = nimi;
