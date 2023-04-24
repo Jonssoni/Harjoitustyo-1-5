@@ -1,18 +1,26 @@
-document.querySelector("button").addEventListener("click", addNote);
-let body = document.querySelector("body");
+document.querySelector("button").addEventListener("click", myFunction);
+let print = document.querySelector("pp");
 
 let note = document.getElementById("viesti");
 let checkbox = document.getElementById("important");
+let nimi = document.getElementById("name").value;
 
 
 
 //luodaan funtio addtext
-function addNote() {
+function myFunction() {
 
     let h3 = document.createElement("h3");
 
     let p = document.createElement("p");
     p.textContent = viesti.value;
+
+    let d = new Date();
+
+    let n = nimi;
+
+
+
 
     //onko checkbox painettuna vai ei
 
@@ -21,6 +29,6 @@ function addNote() {
         p.classList.add("important");
     }
 
-    //kaikki elementit bodyn sisälle
-    body.append(h3,p,document.createElement("p"));
+    pp.append(p,d,document.createElement("hr"));
+ 
 }
