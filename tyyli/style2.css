@@ -1,7 +1,41 @@
+
+body {
+    background-color: rgb(150, 150, 150);
+}
+
 #pp {
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+h1 {
+    color:brown;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#robo {
+    width: 80px;
+}
+
+@media screen and (max-width: 1000px) {
+    #robo {
+        display: none;
+    }
+
+    #cat {
+     width: 100%;
+    }
+    #dog {
+        width: 100%;
+    }
+    #catdog {
+        width: 100%;
+    }
+    }
+
+
 
 

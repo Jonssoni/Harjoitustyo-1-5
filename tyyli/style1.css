@@ -12,9 +12,23 @@
   margin-top: 10px;
 }
 
+body {
+  background-color: rgb(150, 150, 150);
+}
+
+h1 {
+  color:brown;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
 #textarea {
   margin-top: 60px;
 
+}
+
+#robo {
+  width: 80px;
 }
 
 #name {
@@ -59,3 +73,9 @@
   border:hide;
 }
 
+@media screen and (max-width: 1000px) {
+  #robo {
+      display: none;
+  }
+
+}
