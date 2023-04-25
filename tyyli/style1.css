@@ -65,8 +65,9 @@ h1 {
 
 .important {
   text-align: center;
-  border: 0.5px solid red;
+  border: 1.5px solid red;
   border-width: auto;
+  font-weight: 500;
 }
 
 #h3 {
