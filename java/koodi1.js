@@ -3,7 +3,7 @@ let print = document.querySelector("pp");
 
 let note = document.getElementById("viesti");
 let checkbox = document.getElementById("important");
-let nimi = document.getElementById("name").value;
+let nimi = document.getElementById("name2");
 
 
 
@@ -13,11 +13,13 @@ function myFunction() {
     let h3 = document.createElement("h3");
 
     let p = document.createElement("p");
-    p.textContent = viesti.value;
+    p.textContent = "Viesti:" + " " + viesti.value;
+
+    let n = document.createElement("n");
+    n.textContent = "(" + name2.value + ")";
 
     let d = new Date();
 
-    let n = nimi;
 
 
 
@@ -29,6 +31,6 @@ function myFunction() {
         p.classList.add("important");
     }
 
-    pp.append(p,d,document.createElement("hr"));
+    pp.append(n,p,d,document.createElement("hr"));
  
 }
