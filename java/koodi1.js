@@ -26,11 +26,12 @@ function myFunction() {
 
     //onko checkbox painettuna vai ei
 
-    if(checkbox.checked){
+    if (checkbox.checked) {
         h3.classList.add("important");
         p.classList.add("important");
     }
 
-    pp.append(n,p,d,document.createElement("hr"));
- 
+    //tulostetaan teksti
+    pp.append(n, p, d, document.createElement("hr"));
+
 }
